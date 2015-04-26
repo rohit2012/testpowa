@@ -1,0 +1,4 @@
+public boolean isTextPresent(String text) {
+    List<WebElement> foundElements = driver.findElements(By.xpath("//*[contains(text(), '" + text + "')]"));
+    return foundElements.size() > 0;
+}
