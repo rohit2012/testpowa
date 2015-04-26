@@ -1,9 +1,0 @@
-1. Selenium IDE
-2. Selenium RC
-3. Java
-4. Oops concept
-5. Web driver
-6. Grid
-7. Any Build Automation Tool (ANT/Maven)python 
-8. Experience in CI tools like maven, Jenkins. 
-9. Report through gmail.
