@@ -1,0 +1,11 @@
+<suite name="Sanity">
+<listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+	<test name="Sanity Test 1">
+		<classes>
+			<class name="testcases.login"/>
+		</classes>		
+	</test>
+</suite>

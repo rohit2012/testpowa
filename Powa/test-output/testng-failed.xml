@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [test1]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="test name(failed)">
+    <classes>
+      <class name="com.powa.testcases.AddedProductOnSite">
+        <methods>
+          <include name="verifyAddedProduct"/>
+        </methods>
+      </class> <!-- com.powa.testcases.AddedProductOnSite -->
+      <class name="com.powa.testcases.AddPayment">
+        <methods>
+          <include name="addPayment"/>
+        </methods>
+      </class> <!-- com.powa.testcases.AddPayment -->
+      <class name="com.powa.testcases.Login">
+        <methods>
+          <include name="login"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.powa.testcases.Login -->
+      <class name="com.powa.testcases.AddProduct">
+        <methods>
+          <include name="addProduct"/>
+        </methods>
+      </class> <!-- com.powa.testcases.AddProduct -->
+      <class name="com.powa.testcases.Logout">
+        <methods>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- com.powa.testcases.Logout -->
+      <class name="com.powa.testcases.MenuTab">
+        <methods>
+          <include name="verifySubTab"/>
+        </methods>
+      </class> <!-- com.powa.testcases.MenuTab -->
+    </classes>
+  </test> <!-- test name(failed) -->
+</suite> <!-- Failed suite [test1] -->

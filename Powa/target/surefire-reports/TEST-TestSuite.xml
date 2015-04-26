@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="203.734" tests="12" errors="0" skipped="6" failures="3">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_76\jre\bin"/>
+    <property name="java.vm.version" value="24.76-b04"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 2"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Automation\selenium classes\eclipse_Luna\workspace\Powa"/>
+    <property name="java.runtime.version" value="1.7.0_76-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_76\jre\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.io.tmpdir" value="C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows XP"/>
+    <property name="classworlds.conf" value="C:\Program Files\apache-maven-3.2.5\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_76\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\Heroku\bin;C:\Program Files\git\cmd0;C:\Program Files\apache-maven-3.2.5\bin;C:\Program Files\Java\jdk1.7.0_76\bin;C:\Program Files\Java\jdk1.7.0_76\bin;C:\Program Files\apache-maven-3.2.5\bin;C:\Program Files\Android\android-sdk\platform-tools;C:\Program Files\Android\android-sdk\tools;C:\Ruby193\bin;D:\Automation\selenium classes\eclipse_Luna\workspace\Powa\Jars\libs;D:\Automation\selenium classes\eclipse_Luna\Jars\libs;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="5.1"/>
+    <property name="user.home" value="C:\Documents and Settings\Administrator"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Administrator"/>
+    <property name="java.class.path" value="C:\Program Files\apache-maven-3.2.5\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_76\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="1.7.0_76"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_76\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_76\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_76\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_76\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_76\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_76\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_76\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_76\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_76\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\apache-maven-3.2.5"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+  </properties>
+  <testcase name="login" classname="com.powa.testcases.Login" time="14.485"/>
+  <testcase name="logout" classname="com.powa.testcases.Logout" time="14.062"/>
+  <testcase name="verifySubTab" classname="com.powa.testcases.MenuTab" time="11.89"/>
+  <testcase name="addProduct" classname="com.powa.testcases.AddProduct" time="40.5">
+    <failure message="AddProduct_Cancel_Button_xpath is not present" type="java.lang.AssertionError">java.lang.AssertionError: AddProduct_Cancel_Button_xpath is not present
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.powa.libraries.Asserations.isElementPresent(Asserations.java:16)
+	at com.powa.libraries.ElementRepositary.click(ElementRepositary.java:79)
+	at com.powa.testcases.AddProduct.addProduct(AddProduct.java:26)
+</failure>
+    <system-out><![CDATA[Searched productName iPhone 6
+Added product is deleted
+]]></system-out>
+  </testcase>
+  <testcase name="verifyAddedProduct" classname="com.powa.testcases.AddedProductOnSite" time="51.203">
+    <failure message="PreviewWebsite_Added_Product_name_xpath is not present" type="java.lang.AssertionError">java.lang.AssertionError: PreviewWebsite_Added_Product_name_xpath is not present
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.powa.libraries.Asserations.isElementPresent(Asserations.java:16)
+	at com.powa.libraries.Asserations.isTextPresent(Asserations.java:39)
+	at com.powa.testcases.AddedProductOnSite.verifyAddedProduct(AddedProductOnSite.java:36)
+</failure>
+  </testcase>
+  <testcase name="logout" classname="com.powa.testcases.AddedProductOnSite" time="71.594">
+    <failure message="home_logout_link_id is not present" type="java.lang.AssertionError">java.lang.AssertionError: home_logout_link_id is not present
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.powa.libraries.Asserations.isElementPresent(Asserations.java:16)
+	at com.powa.libraries.ElementRepositary.click(ElementRepositary.java:79)
+	at com.powa.testcases.AddedProductOnSite.logout(AddedProductOnSite.java:51)
+</failure>
+  </testcase>
+  <testcase name="tearDown" classname="com.powa.testcases.AddedProductOnSite" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.powa.testcases.AddPayment" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="login" classname="com.powa.testcases.AddPayment" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="addPayment" classname="com.powa.testcases.AddPayment" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="logout" classname="com.powa.testcases.AddPayment" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.powa.testcases.AddPayment" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>

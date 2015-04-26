@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test name"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="5"
+           time="0.000">
+  <properties />
+  
+            <testcase name="tearDown" time="0.0" classname="com.powa.testcases.AddedProductOnSite">
+          <skipped />
+    </testcase>
+            <testcase name="login" time="0.0" classname="com.powa.testcases.AddedProductOnSite">
+          <skipped />
+    </testcase>
+            <testcase name="logout" time="0.0" classname="com.powa.testcases.AddedProductOnSite">
+          <skipped />
+    </testcase>
+            <testcase name="setUp" time="0.0" classname="com.powa.testcases.AddedProductOnSite">
+          <skipped />
+    </testcase>
+            <testcase name="verifyAddedProduct" time="0.0" classname="com.powa.testcases.AddedProductOnSite">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>

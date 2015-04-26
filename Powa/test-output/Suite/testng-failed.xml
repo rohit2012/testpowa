@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="com.powa.testcases.Login">
+        <methods>
+          <include name="login"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.powa.testcases.Login -->
+      <class name="com.powa.testcases.Logout">
+        <methods>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- com.powa.testcases.Logout -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

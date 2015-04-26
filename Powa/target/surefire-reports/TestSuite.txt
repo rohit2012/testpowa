@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 3, Errors: 0, Skipped: 6, Time elapsed: 609.031 sec <<< FAILURE! - in TestSuite
+addProduct(com.powa.testcases.AddProduct)  Time elapsed: 40.5 sec  <<< FAILURE!
+java.lang.AssertionError: AddProduct_Cancel_Button_xpath is not present
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.powa.libraries.Asserations.isElementPresent(Asserations.java:16)
+	at com.powa.libraries.ElementRepositary.click(ElementRepositary.java:79)
+	at com.powa.testcases.AddProduct.addProduct(AddProduct.java:26)
+
+verifyAddedProduct(com.powa.testcases.AddedProductOnSite)  Time elapsed: 51.203 sec  <<< FAILURE!
+java.lang.AssertionError: PreviewWebsite_Added_Product_name_xpath is not present
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.powa.libraries.Asserations.isElementPresent(Asserations.java:16)
+	at com.powa.libraries.Asserations.isTextPresent(Asserations.java:39)
+	at com.powa.testcases.AddedProductOnSite.verifyAddedProduct(AddedProductOnSite.java:36)
+
+logout(com.powa.testcases.AddedProductOnSite)  Time elapsed: 71.594 sec  <<< FAILURE!
+java.lang.AssertionError: home_logout_link_id is not present
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.powa.libraries.Asserations.isElementPresent(Asserations.java:16)
+	at com.powa.libraries.ElementRepositary.click(ElementRepositary.java:79)
+	at com.powa.testcases.AddedProductOnSite.logout(AddedProductOnSite.java:51)
+

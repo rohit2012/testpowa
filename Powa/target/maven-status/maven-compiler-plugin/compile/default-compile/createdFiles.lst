@@ -1,0 +1,11 @@
+com\powa\libraries\ElementRepositary.class
+com\powa\testcases\Logout.class
+com\powa\libraries\Asserations.class
+com\powa\testcases\AddProduct.class
+com\powa\libraries\FileOperations.class
+com\powa\testcases\AddPayment.class
+com\powa\baseclasses\BaseClass.class
+com\powa\testcases\MenuTab.class
+com\powa\testcases\Login.class
+com\powa\libraries\BussinessMethod.class
+com\powa\testcases\AddedProductOnSite.class

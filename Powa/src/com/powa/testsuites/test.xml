@@ -1,0 +1,16 @@
+<suite name = "test1" >
+	<listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+		<test name ="test name" >
+			<classes >
+				<class name = "com.powa.testcases.Login"/>
+				<class name = "com.powa.testcases.Logout"/>
+				<class name = "com.powa.testcases.MenuTab"/>
+				<class name = "com.powa.testcases.AddProduct"/>
+				<class name = "com.powa.testcases.AddedProductOnSite"/>
+				<class name = "com.powa.testcases.AddPayment"/>
+			</classes>
+		</test>
+</suite>
